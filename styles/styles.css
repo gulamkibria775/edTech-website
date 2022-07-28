@@ -1,8 +1,13 @@
 /* slider button color */
-.slider_button{
-    background-color: #289BDE;
+.slider_button {
+  background-color: #289bde;
 }
 /* nav_background */
-.nav_background{
-    background-color: white;
+.nav_background {
+  background-color: white;
+}
+.wh{
+  width:600px;
+  height: 150px;
+  border:1px solid red
 }
