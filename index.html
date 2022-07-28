@@ -22,6 +22,8 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid mt-3">
           <a class="navbar-brand" href="#">Pro Edu</a>
+          
+          
           <button
             class="navbar-toggler"
             type="button"
@@ -33,7 +35,9 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 ps-5">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -65,10 +69,11 @@
               </li>
             </ul>
 
-            <button class="btn btn-outline-info px-4" type="submit">
+            <button class="btn btn-outline-info px-4 d-none d-md-block" type="submit">
               Register
             </button>
           </div>
+         
         </div>
       </nav>
       <!-- navigation end-->
@@ -80,7 +85,7 @@
           class="carousel slide mt-4"
           data-bs-ride="false"
         >
-          <div class="carousel-inner">
+          <div class="carousel-inner slider-bground z-0">
             <div class="carousel-item active">
               <img
                 src="images/cover/cover-1.png"
@@ -194,7 +199,7 @@
      <!-- main banner end -->
 
      <!-- course content star -->
-     <section>
+     <section  class="container">
 
       <div class="container d-flex  mt-5">
         <!-- sub-one start -->
@@ -288,12 +293,55 @@
         </div>
          <!-- sub-two end -->
       </div>
+      <!-- course button start -->
+      <div class="d-flex justify-content-center my-5">
+        <div class="btn btn-primary opacity-75 px-4 py-3"> See More Courses</div>
+      </div>
+      <!-- course button end-->
      </section>
      <!-- course content end -->
 
 
+    <!-- ready to join section start -->
+    <section class="my-5 py-5 container">
+      <div class="border bg-primary d-flex justify-content-between align-items-center p-5">
+        <div>
+          <h2 class="text-white">Ready to join?</h2>
+          <p class="text-white-50">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
+        </div>
+        <div>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Register Now
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">What is a modal on a website?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        A modal (also called a modal window or lightbox) is a web page element that displays in front of and deactivates all other page content. To return to the main content, the user must engage with the modal by completing an action or by closing it.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ready to join section end-->
+
+
      <!-- questionare part start -->
-     <section class="container mt-5">
+     <section class="container mt-5 py-5">
 
       
       
@@ -303,7 +351,7 @@
         <!-- Questionar headline start -->
         <div class="mx-5  mb-4">
           <h1 class="text-center">Frequently Asked Questions</h1>
-          <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <h5 class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h5>
         </div>
       
       <!-- Questionar headline end -->
@@ -353,6 +401,28 @@
       </div>
      </section>
      <!-- questionare part end -->
+
+     <!-- company logo part star -->
+
+     <section class="container my-5 py-5">
+
+      <div class="d-none d-lg-block">
+        <h1 class="text-center">Trusted by over 800+ companies</h1>
+        <!-- logo secton start -->
+        <div class="d-flex justify-content-between pt-2">
+          <div><img src="images/company/company-1.png" alt=""></div>
+          <div><img src="images/company/company-2.png" alt=""></div>
+          <div><img src="images/company/company-3.png" alt=""></div>
+          <div><img src="images/company/company-4.png" alt=""></div>
+          <div><img src="images/company/company-5.png" alt=""></div>
+          <div><img src="images/company/company-6.png" alt=""></div>
+        </div>
+        <!-- logo secton end -->
+      </div>
+     </section>
+
+
+     <!-- company logo part end -->
 
     </main>
     

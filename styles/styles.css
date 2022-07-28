@@ -2,6 +2,10 @@
 .slider_button {
   background-color: #289bde;
 }
+
+.slider-bground{
+  columns: #1D1D1D;
+}
 /* nav_background */
 .nav_background {
   background-color: white;
