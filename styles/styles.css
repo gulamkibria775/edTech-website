@@ -9,5 +9,7 @@
 .wh{
   width:600px;
   height: 150px;
-  border:1px solid red
+  border:1px solid red;
+  justify-items: center;
+  
 }
